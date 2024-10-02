@@ -1,0 +1,10 @@
+{
+	"#3fff31" : "Norway"
+	,"#d44a31" : "Sweden"
+	,"#d49f48" : "Finland"
+	,"#d43c48" : "Denmark"
+	,"#d48da0" : "Northern Germany"
+	,"#cc1513" : "Lithuania"
+	,"#27d1a0" : "Latvia"
+	,"#278da0" : "Estonia"
+}
