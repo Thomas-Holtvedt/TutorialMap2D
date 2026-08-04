@@ -1,17 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://rrqjn7jc4klt"]
+[gd_scene format=3 uid="uid://rrqjn7jc4klt"]
 
-[ext_resource type="Script" path="res://Scenes/Main.gd" id="1_iy2ag"]
+[ext_resource type="Script" uid="uid://ctrqm00lrddcg" path="res://Scenes/Main.gd" id="1_iy2ag"]
 [ext_resource type="Texture2D" uid="uid://dhthx6h00wk8n" path="res://Map_data/region_map.png" id="2_e3kbw"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Node2D" unique_id=1195241388]
 script = ExtResource("1_iy2ag")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1370257171]
 texture = ExtResource("2_e3kbw")
 centered = false
 
-[node name="Regions" type="Node2D" parent="."]
+[node name="Regions" type="Node2D" parent="." unique_id=1742944538]
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1212239380]
 offset = Vector2(50, 50)
 zoom = Vector2(5, 5)
