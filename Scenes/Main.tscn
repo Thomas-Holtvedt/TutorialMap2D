@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://rrqjn7jc4klt"]
 
 [ext_resource type="Script" uid="uid://ctrqm00lrddcg" path="res://Scenes/Main.gd" id="1_iy2ag"]
-[ext_resource type="Texture2D" uid="uid://dhthx6h00wk8n" path="res://Map_data/region_map.png" id="2_e3kbw"]
+[ext_resource type="Texture2D" uid="uid://dqcx7rsqtfc13" path="res://Map_data/region_map_with_fictional_lakes.png" id="2_idj7w"]
 
 [node name="Main" type="Node2D" unique_id=1195241388]
 script = ExtResource("1_iy2ag")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1370257171]
-texture = ExtResource("2_e3kbw")
+texture = ExtResource("2_idj7w")
 centered = false
 
 [node name="Regions" type="Node2D" parent="." unique_id=1742944538]
